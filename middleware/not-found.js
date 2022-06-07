@@ -1,3 +1,3 @@
-const notfound = (req,res)=>{ res.status(404).send(`Path doesn't exist`)}
+const notfoundMiddleware = (req,res)=>{ res.status(404).send(`Path doesn't exist`)}
 
-module.exports = notfound
+module.exports = notfoundMiddleware

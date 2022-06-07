@@ -1,9 +1,23 @@
 {
-  "dependencies": {
-    "dotenv": "^16.0.0",
-    "express": "^4.17.3"
+  "scripts":{
+    "start": "node app.js"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.16"
-  }
+    "dependencies": {
+      "bcrypt": "^5.0.1",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.0",
+      "express": "^4.17.3",
+      "express-async-errors": "^3.1.1",
+      "express-rate-limit": "^6.4.0",
+      "helmet": "^5.1.0",
+      "http-status-codes": "^2.2.0",
+      "jsonwebtoken": "^8.5.1",
+      "xss-clean": "^0.1.1"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.16"
+    },
+    "engines": {
+      "node": "14.x"
+    }
 }
